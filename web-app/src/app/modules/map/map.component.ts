@@ -11,7 +11,7 @@ import { fromLonLat } from 'ol/proj';
     selector: 'app-map',
     templateUrl: './map.component.html',
     styles: [
-        '.map { position: absolute; left: 0px; top:55px; bottom: 0; right: 0;}'
+        '.map { position: absolute; left: 0px; top:55px; bottom: 0; right: 0; z-index: -100; }'
     ]
 })
 export class MapComponent implements OnInit {

@@ -4,11 +4,11 @@ import {PotholesService} from './common/services/potholes.service';
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
-    styleUrls: []
+    styles: [ ]
 })
 export class AppComponent {
 
-    title = "Home";
+    public isNavbarCollapsed = true;
 
     constructor(public potholesService: PotholesService) {
 
