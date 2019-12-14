@@ -29,7 +29,15 @@
             android:id="@+id/locationSwitch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Localisation service" />
+            android:text="Localisation" />
+
+        <Switch
+            android:id="@+id/sharingSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="false"
+            android:text="Sharing" />
 
         <Space
             android:layout_width="match_parent"
@@ -81,7 +89,10 @@
         <ListView
             android:id="@+id/potholesListView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent">
+
+        </ListView>
 
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

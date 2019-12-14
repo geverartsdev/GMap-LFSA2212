@@ -38,6 +38,7 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
     private PotholeAdapter potholeAdapter;
 
     private Switch locationSwitch;
+    private Switch sharingSwitch;
     private ListView potholesView;
     private SeekBar thresholdBar;
     private TextView gValue;
@@ -60,14 +61,20 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
         locationService = new LocationService(this);
         firestoreService = new FirestoreService();
 
+        sharingSwitch = findViewById(R.id.sharingSwitch);
+        sharingSwitch.setEnabled(false);
+
         locationSwitch = findViewById(R.id.locationSwitch);
         locationSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
+                    sharingSwitch.setEnabled(true);
                     if (!locationService.start()) locationSwitch.setChecked(false);
                 } else {
                     locationService.stop();
+                    sharingSwitch.setChecked(false);
+                    sharingSwitch.setEnabled(false);
                 }
             }
         });
@@ -114,12 +121,10 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
 
         this.lastMeasurements = Arrays.copyOf(event.values, 3);
 
-        // Log.d(TAG, "onSensorChanged : " + diff);
-
         if (diff > threshold) potHoleDetected(diff);
         else alert.setVisibility(View.INVISIBLE);
 
-        gValue.setText("Acceleration : " + diff);
+        gValue.setText("Acceleration variation : " + diff);
     }
 
     @Override
@@ -135,7 +140,7 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
             potholes.add(0, pothole);
             lastTime = System.currentTimeMillis();
 
-            if (location != null) firestoreService.addPothole(pothole);
+            if (location != null && sharingSwitch.isChecked()) firestoreService.addPothole(pothole);
         } else {
             potholes.get(0).updateIntensityIfGreater(intensity);
         }
