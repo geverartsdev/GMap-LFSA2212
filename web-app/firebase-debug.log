@@ -1,0 +1,405 @@
+[debug] [2019-12-14T01:00:24.425Z] ----------------------------------------------------------------------
+[debug] [2019-12-14T01:00:24.427Z] Command:       /usr/bin/node /usr/bin/firebase init
+[debug] [2019-12-14T01:00:24.427Z] CLI Version:   7.10.0
+[debug] [2019-12-14T01:00:24.427Z] Platform:      linux
+[debug] [2019-12-14T01:00:24.427Z] Node Version:  v10.17.0
+[debug] [2019-12-14T01:00:24.428Z] Time:          Sat Dec 14 2019 02:00:24 GMT+0100 (Central European Standard Time)
+[debug] [2019-12-14T01:00:24.428Z] ----------------------------------------------------------------------
+[debug] [2019-12-14T01:00:24.428Z] 
+[debug] [2019-12-14T01:00:24.434Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-14T01:00:24.435Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /media/sf_Documents/UCL/UCL-2019-2020/Q3.Innovation/GMap/web-app
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-12-14T01:01:12.963Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-12-14T01:01:12.963Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-12-14T01:01:13.342Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-14T01:01:13.348Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/availableProjects?pageSize=100  
+ 
+[debug] [2019-12-14T01:01:13.891Z] <<< HTTP RESPONSE 200
+[error] 
+[error] Error: There are no available Google Cloud projects to add Firebase services.
+[debug] [2019-12-14T01:01:14.150Z] Error: ETXTBSY: text file is busy, unlink '/media/sf_Documents/UCL/UCL-2019-2020/Q3.Innovation/GMap/web-app/firebase-debug.log'
+    at Object.unlinkSync (fs.js:956:3)
+    at process.<anonymous> (/usr/lib/node_modules/firebase-tools/lib/bin/firebase.js:68:12)
+    at process.emit (events.js:203:15)
+    at processEmit [as emit] (/usr/lib/node_modules/firebase-tools/node_modules/signal-exit/index.js:149:35)
+    at process.exit (internal/process/per_thread.js:168:15)
+    at Timeout._onTimeout (/usr/lib/node_modules/firebase-tools/lib/errorOut.js:19:17)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-12-14T01:01:34.175Z] ----------------------------------------------------------------------
+[debug] [2019-12-14T01:01:34.177Z] Command:       /usr/bin/node /usr/bin/firebase init
+[debug] [2019-12-14T01:01:34.177Z] CLI Version:   7.10.0
+[debug] [2019-12-14T01:01:34.177Z] Platform:      linux
+[debug] [2019-12-14T01:01:34.177Z] Node Version:  v10.17.0
+[debug] [2019-12-14T01:01:34.177Z] Time:          Sat Dec 14 2019 02:01:34 GMT+0100 (Central European Standard Time)
+[debug] [2019-12-14T01:01:34.178Z] ----------------------------------------------------------------------
+[debug] [2019-12-14T01:01:34.178Z] 
+[debug] [2019-12-14T01:01:34.186Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-14T01:01:34.186Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /media/sf_Documents/UCL/UCL-2019-2020/Q3.Innovation/GMap/web-app
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[error] 
+[error] Error: Must select at least one feature. Use SPACEBAR to select features, or provide a feature with firebase init [feature_name]
+[debug] [2019-12-14T01:01:37.217Z] Error: ETXTBSY: text file is busy, unlink '/media/sf_Documents/UCL/UCL-2019-2020/Q3.Innovation/GMap/web-app/firebase-debug.log'
+    at Object.unlinkSync (fs.js:956:3)
+    at process.<anonymous> (/usr/lib/node_modules/firebase-tools/lib/bin/firebase.js:68:12)
+    at process.emit (events.js:203:15)
+    at processEmit [as emit] (/usr/lib/node_modules/firebase-tools/node_modules/signal-exit/index.js:149:35)
+    at process.exit (internal/process/per_thread.js:168:15)
+    at Timeout._onTimeout (/usr/lib/node_modules/firebase-tools/lib/errorOut.js:19:17)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-12-14T01:01:40.515Z] ----------------------------------------------------------------------
+[debug] [2019-12-14T01:01:40.517Z] Command:       /usr/bin/node /usr/bin/firebase init
+[debug] [2019-12-14T01:01:40.517Z] CLI Version:   7.10.0
+[debug] [2019-12-14T01:01:40.517Z] Platform:      linux
+[debug] [2019-12-14T01:01:40.517Z] Node Version:  v10.17.0
+[debug] [2019-12-14T01:01:40.517Z] Time:          Sat Dec 14 2019 02:01:40 GMT+0100 (Central European Standard Time)
+[debug] [2019-12-14T01:01:40.517Z] ----------------------------------------------------------------------
+[debug] [2019-12-14T01:01:40.517Z] 
+[debug] [2019-12-14T01:01:40.524Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-14T01:01:40.524Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /media/sf_Documents/UCL/UCL-2019-2020/Q3.Innovation/GMap/web-app
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project.
+[debug] [2019-12-14T01:02:19.450Z] Error: ETXTBSY: text file is busy, unlink '/media/sf_Documents/UCL/UCL-2019-2020/Q3.Innovation/GMap/web-app/firebase-debug.log'
+    at Object.unlinkSync (fs.js:956:3)
+    at process.<anonymous> (/usr/lib/node_modules/firebase-tools/lib/bin/firebase.js:68:12)
+    at process.emit (events.js:203:15)
+    at processEmit [as emit] (/usr/lib/node_modules/firebase-tools/node_modules/signal-exit/index.js:149:35)
+    at process.topLevelDomainCallback (domain.js:126:23)
+[debug] [2019-12-14T01:02:22.935Z] ----------------------------------------------------------------------
+[debug] [2019-12-14T01:02:22.937Z] Command:       /usr/bin/node /usr/bin/firebase init
+[debug] [2019-12-14T01:02:22.937Z] CLI Version:   7.10.0
+[debug] [2019-12-14T01:02:22.937Z] Platform:      linux
+[debug] [2019-12-14T01:02:22.937Z] Node Version:  v10.17.0
+[debug] [2019-12-14T01:02:22.937Z] Time:          Sat Dec 14 2019 02:02:22 GMT+0100 (Central European Standard Time)
+[debug] [2019-12-14T01:02:22.937Z] ----------------------------------------------------------------------
+[debug] [2019-12-14T01:02:22.937Z] 
+[debug] [2019-12-14T01:02:22.943Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-14T01:02:22.944Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /media/sf_Documents/UCL/UCL-2019-2020/Q3.Innovation/GMap/web-app
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-12-14T01:02:29.777Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2019-12-14T01:02:30.447Z] <<< HTTP RESPONSE 200
+[info] i  Using project gmap-lfsa2212 (GMap-LFSA2212)
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2019-12-14T01:13:38.320Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2019-12-14T01:13:38.642Z] <<< HTTP RESPONSE 200
+[info] ✔  Wrote dist/index.html
+[info] 
+[info] i  Writing configuration info to firebase.json...
+[info] i  Writing project information to .firebaserc...
+[info] 
+[info] ✔  Firebase initialization complete!
+[debug] [2019-12-14T01:13:38.666Z] Error: ETXTBSY: text file is busy, unlink '/media/sf_Documents/UCL/UCL-2019-2020/Q3.Innovation/GMap/web-app/firebase-debug.log'
+    at Object.unlinkSync (fs.js:956:3)
+    at process.<anonymous> (/usr/lib/node_modules/firebase-tools/lib/bin/firebase.js:68:12)
+    at process.emit (events.js:203:15)
+    at processEmit [as emit] (/usr/lib/node_modules/firebase-tools/node_modules/signal-exit/index.js:149:35)
+    at process.topLevelDomainCallback (domain.js:126:23)
+[debug] [2019-12-14T01:14:08.724Z] ----------------------------------------------------------------------
+[debug] [2019-12-14T01:14:08.726Z] Command:       /usr/bin/node /usr/bin/firebase deploy
+[debug] [2019-12-14T01:14:08.727Z] CLI Version:   7.10.0
+[debug] [2019-12-14T01:14:08.727Z] Platform:      linux
+[debug] [2019-12-14T01:14:08.727Z] Node Version:  v10.17.0
+[debug] [2019-12-14T01:14:08.736Z] Time:          Sat Dec 14 2019 02:14:08 GMT+0100 (Central European Standard Time)
+[debug] [2019-12-14T01:14:08.736Z] ----------------------------------------------------------------------
+[debug] [2019-12-14T01:14:08.736Z] 
+[debug] [2019-12-14T01:14:08.746Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-14T01:14:08.746Z] > authorizing via signed-in user
+[debug] [2019-12-14T01:14:08.746Z] [iam] checking project gmap-lfsa2212 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-12-14T01:14:08.748Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/gmap-lfsa2212:testIamPermissions  
+
+[debug] [2019-12-14T01:14:09.774Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-14T01:14:09.776Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/gmap-lfsa2212  
+ 
+[debug] [2019-12-14T01:14:10.241Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'gmap-lfsa2212'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-12-14T01:14:10.245Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/gmap-lfsa2212/versions  
+
+[debug] [2019-12-14T01:14:13.009Z] <<< HTTP RESPONSE 200
+[info] i  hosting[gmap-lfsa2212]: beginning deploy...
+[info] i  hosting[gmap-lfsa2212]: found 11 files in dist
+[debug] [2019-12-14T01:14:13.020Z] [hosting] hash cache [ZGlzdA] not populated
+[debug] [2019-12-14T01:14:13.153Z] [hosting] hash cache [ZGlzdA] stored for 11 files
+[debug] [2019-12-14T01:14:13.154Z] [hosting][hash queue][FINAL]
+[debug] [2019-12-14T01:14:13.155Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/gmap-lfsa2212/versions/86aca9ae1929e6a0:populateFiles  
+ <request body omitted>
+[debug] [2019-12-14T01:14:15.028Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-14T01:14:15.037Z] [hosting][populate queue][FINAL]
+[debug] [2019-12-14T01:14:15.037Z] [hosting] uploads queued: 10
+[debug] [2019-12-14T01:14:18.592Z] [hosting][upload queue][FINAL]
+[info] ✔  hosting[gmap-lfsa2212]: file upload complete
+[debug] [2019-12-14T01:14:18.593Z] [hosting] deploy completed after 5583ms
+[debug] [2019-12-14T01:14:18.593Z] [
+  {
+    "config": {
+      "public": "dist",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "gmap-lfsa2212"
+    },
+    "site": "gmap-lfsa2212",
+    "version": "sites/gmap-lfsa2212/versions/86aca9ae1929e6a0"
+  }
+]
+[info] i  hosting[gmap-lfsa2212]: finalizing version...
+[debug] [2019-12-14T01:14:18.593Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/gmap-lfsa2212/versions/86aca9ae1929e6a0?updateMask=status  
+
+[debug] [2019-12-14T01:14:22.234Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-14T01:14:22.234Z] [hosting] finalized version for gmap-lfsa2212:
+[info] ✔  hosting[gmap-lfsa2212]: version finalized
+[info] i  hosting[gmap-lfsa2212]: releasing new version...
+[debug] [2019-12-14T01:14:22.235Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/gmap-lfsa2212/releases?version_name=sites/gmap-lfsa2212/versions/86aca9ae1929e6a0  
+
+[debug] [2019-12-14T01:14:23.342Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-14T01:14:23.342Z] [hosting] release:
+[info] ✔  hosting[gmap-lfsa2212]: release complete
+[info] 
+[info] ✔  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/gmap-lfsa2212/overview
+[info] Hosting URL: https://gmap-lfsa2212.firebaseapp.com
+[debug] [2019-12-14T01:14:23.346Z] Error: ETXTBSY: text file is busy, unlink '/media/sf_Documents/UCL/UCL-2019-2020/Q3.Innovation/GMap/web-app/firebase-debug.log'
+    at Object.unlinkSync (fs.js:956:3)
+    at process.<anonymous> (/usr/lib/node_modules/firebase-tools/lib/bin/firebase.js:68:12)
+    at process.emit (events.js:203:15)
+    at process.topLevelDomainCallback (domain.js:126:23)
+[debug] [2019-12-14T01:31:27.722Z] ----------------------------------------------------------------------
+[debug] [2019-12-14T01:31:27.724Z] Command:       /usr/bin/node /usr/bin/firebase init
+[debug] [2019-12-14T01:31:27.724Z] CLI Version:   7.10.0
+[debug] [2019-12-14T01:31:27.724Z] Platform:      linux
+[debug] [2019-12-14T01:31:27.724Z] Node Version:  v10.17.0
+[debug] [2019-12-14T01:31:27.729Z] Time:          Sat Dec 14 2019 02:31:27 GMT+0100 (Central European Standard Time)
+[debug] [2019-12-14T01:31:27.729Z] ----------------------------------------------------------------------
+[debug] [2019-12-14T01:31:27.729Z] 
+[debug] [2019-12-14T01:31:27.738Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-14T01:31:27.738Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /media/sf_Documents/UCL/UCL-2019-2020/Q3.Innovation/GMap/web-app
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using gmap-lfsa2212.
+[debug] [2019-12-14T01:31:30.780Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/gmap-lfsa2212  
+ 
+[debug] [2019-12-14T01:31:31.117Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] ✔  Wrote dist/web-app/404.html
+[debug] [2019-12-14T01:31:42.708Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2019-12-14T01:31:43.010Z] <<< HTTP RESPONSE 200
+[info] i  Skipping write of dist/web-app/index.html
+[info] 
+[info] i  Writing configuration info to firebase.json...
+[info] i  Writing project information to .firebaserc...
+[info] 
+[info] ✔  Firebase initialization complete!
+[debug] [2019-12-14T01:31:52.799Z] Error: ETXTBSY: text file is busy, unlink '/media/sf_Documents/UCL/UCL-2019-2020/Q3.Innovation/GMap/web-app/firebase-debug.log'
+    at Object.unlinkSync (fs.js:956:3)
+    at process.<anonymous> (/usr/lib/node_modules/firebase-tools/lib/bin/firebase.js:68:12)
+    at process.emit (events.js:203:15)
+    at processEmit [as emit] (/usr/lib/node_modules/firebase-tools/node_modules/signal-exit/index.js:149:35)
+    at process.topLevelDomainCallback (domain.js:126:23)
+[debug] [2019-12-14T01:32:03.999Z] ----------------------------------------------------------------------
+[debug] [2019-12-14T01:32:04.001Z] Command:       /usr/bin/node /usr/bin/firebase deploy
+[debug] [2019-12-14T01:32:04.002Z] CLI Version:   7.10.0
+[debug] [2019-12-14T01:32:04.002Z] Platform:      linux
+[debug] [2019-12-14T01:32:04.002Z] Node Version:  v10.17.0
+[debug] [2019-12-14T01:32:04.002Z] Time:          Sat Dec 14 2019 02:32:04 GMT+0100 (Central European Standard Time)
+[debug] [2019-12-14T01:32:04.002Z] ----------------------------------------------------------------------
+[debug] [2019-12-14T01:32:04.002Z] 
+[debug] [2019-12-14T01:32:04.009Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-14T01:32:04.009Z] > authorizing via signed-in user
+[debug] [2019-12-14T01:32:04.009Z] [iam] checking project gmap-lfsa2212 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-12-14T01:32:04.011Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/gmap-lfsa2212:testIamPermissions  
+
+[debug] [2019-12-14T01:32:05.038Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-14T01:32:05.040Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/gmap-lfsa2212  
+ 
+[debug] [2019-12-14T01:32:05.536Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'gmap-lfsa2212'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-12-14T01:32:05.540Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/gmap-lfsa2212/versions  
+
+[debug] [2019-12-14T01:32:07.369Z] <<< HTTP RESPONSE 200
+[info] i  hosting[gmap-lfsa2212]: beginning deploy...
+[info] i  hosting[gmap-lfsa2212]: found 11 files in dist/web-app
+[debug] [2019-12-14T01:32:07.383Z] [hosting] hash cache [ZGlzdC93ZWItYXBw] not populated
+[debug] [2019-12-14T01:32:07.549Z] [hosting] hash cache [ZGlzdC93ZWItYXBw] stored for 11 files
+[debug] [2019-12-14T01:32:07.549Z] [hosting][hash queue][FINAL]
+[debug] [2019-12-14T01:32:07.549Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/gmap-lfsa2212/versions/a5cd5242103bcb1f:populateFiles  
+ <request body omitted>
+[debug] [2019-12-14T01:32:09.077Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-14T01:32:09.079Z] [hosting][populate queue][FINAL]
+[debug] [2019-12-14T01:32:09.080Z] [hosting] uploads queued: 1
+[debug] [2019-12-14T01:32:12.350Z] [hosting][upload queue][FINAL]
+[info] ✔  hosting[gmap-lfsa2212]: file upload complete
+[debug] [2019-12-14T01:32:12.351Z] [hosting] deploy completed after 4981ms
+[debug] [2019-12-14T01:32:12.351Z] [
+  {
+    "config": {
+      "public": "dist/web-app",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "site": "gmap-lfsa2212"
+    },
+    "site": "gmap-lfsa2212",
+    "version": "sites/gmap-lfsa2212/versions/a5cd5242103bcb1f"
+  }
+]
+[info] i  hosting[gmap-lfsa2212]: finalizing version...
+[debug] [2019-12-14T01:32:12.351Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/gmap-lfsa2212/versions/a5cd5242103bcb1f?updateMask=status  
+
+[debug] [2019-12-14T01:32:15.988Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-14T01:32:15.988Z] [hosting] finalized version for gmap-lfsa2212:
+[info] ✔  hosting[gmap-lfsa2212]: version finalized
+[info] i  hosting[gmap-lfsa2212]: releasing new version...
+[debug] [2019-12-14T01:32:15.989Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/gmap-lfsa2212/releases?version_name=sites/gmap-lfsa2212/versions/a5cd5242103bcb1f  
+
+[debug] [2019-12-14T01:32:17.107Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-14T01:32:17.107Z] [hosting] release:
+[info] ✔  hosting[gmap-lfsa2212]: release complete
+[info] 
+[info] ✔  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/gmap-lfsa2212/overview
+[info] Hosting URL: https://gmap-lfsa2212.firebaseapp.com
+[debug] [2019-12-14T01:32:17.112Z] Error: ETXTBSY: text file is busy, unlink '/media/sf_Documents/UCL/UCL-2019-2020/Q3.Innovation/GMap/web-app/firebase-debug.log'
+    at Object.unlinkSync (fs.js:956:3)
+    at process.<anonymous> (/usr/lib/node_modules/firebase-tools/lib/bin/firebase.js:68:12)
+    at process.emit (events.js:203:15)
+    at process.topLevelDomainCallback (domain.js:126:23)

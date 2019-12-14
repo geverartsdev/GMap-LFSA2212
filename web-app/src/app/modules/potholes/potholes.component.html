@@ -1,0 +1,19 @@
+
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th scope="col" sortable="location" (sort)="onSort($event)">Location</th>
+        <th scope="col" sortable="time" (sort)="onSort($event)">Time</th>
+        <th scope="col" sortable="intensity" (sort)="onSort($event)">Intensity</th>
+        <th scope="col">Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let pothole of potholes">
+        <td>{{ pothole.getLocationAsString() }}</td>
+        <td>{{ pothole.getTimeAsString() }}</td>
+        <td>{{ pothole.getIntensity() }}</td>
+        <td><button class="btn btn-danger" (click)="potholesService.deletePothole(pothole.getId())">Delete</button></td>
+    </tr>
+    </tbody>
+</table>

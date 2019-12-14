@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "773621294916",
+    "firebase_url": "https://gmap-lfsa2212.firebaseio.com",
+    "project_id": "gmap-lfsa2212",
+    "storage_bucket": "gmap-lfsa2212.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773621294916:android:3e5dc4c900b1aa7f18d911",
+        "android_client_info": {
+          "package_name": "com.geverartsdev.lfsa2212.gmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773621294916-bf3t73gt074maevmoncuefp7r1ct8um1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiNG6H-PaIfloO9IWDYjGQEp1_OfLB6i8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773621294916-bf3t73gt074maevmoncuefp7r1ct8um1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
