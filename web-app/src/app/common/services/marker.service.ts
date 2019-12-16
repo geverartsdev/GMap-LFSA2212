@@ -15,7 +15,8 @@ export class MarkerService {
     constructor(private potholesService: PotholesService) {
         potholesService.onAddedPothole(pothole => {
             const element = document.createElement('div');
-            element.innerHTML = '<img src="https://cdn.mapmarker.io/api/v1/fa/stack?size=50&color=DC4C3F&icon=fa-microchip&hoffset=1"  alt="marker"/>';
+            const size = 30 + Math.round(pothole.getIntensity()) / 2;
+            element.innerHTML = `<img src="https://cdn.mapmarker.io/api/v1/fa/stack?size=50&color=DC4C3F&icon=fa-microchip&hoffset=1"  alt="marker" width="${size}" height="${size}"/>`;
             const marker = new Overlay({
                 position: fromLonLat([pothole.getLocation().longitude, pothole.getLocation().latitude]),
                 positioning: 'center-center',
